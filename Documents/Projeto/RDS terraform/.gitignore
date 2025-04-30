@@ -1,0 +1,19 @@
+# Ignorar arquivos de log
+*.log
+
+# Ignorar arquivos de configurações locais do Terraform
+.terraform/
+
+# Ignorar arquivos de estado do Terraform
+*.tfstate
+*.tfstate.backup
+
+# Ignorar arquivos de variáveis sensíveis (ex: variáveis de credenciais)
+*.tfvars
+
+# Ignorar arquivos temporários do VS Code
+.vscode/
+
+# Ignorar arquivos grandes
+# (adicione aqui os caminhos dos arquivos grandes específicos)
+caminho/do/arquivo-grande.ext
